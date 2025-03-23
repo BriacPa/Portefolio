@@ -1,3 +1,4 @@
+/* Hide Scrollbar */
 html {
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -7,42 +8,66 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+/* Global Styles */
 body {
   font-family: 'Arial', sans-serif;
-  color: #a0a0a0;
+  color: #1a1a1a;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   position: relative;
   z-index: 0;
+  background-color: #1a1a1a;
   background-size: cover;
-  background-position: top; /* Ensures the image stays at the top */
+  background-position: top;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Keeps the background static while scrolling */
+  background-attachment: fixed;
   width: 100vw;
-}
-
-/* Default background (large screens) */
-body {
   background-image: url('./assets/images/BG-Large.png');
 }
 
-/* Medium screens */
+/* Responsive Background Images */
+@media (max-height: 4000px) {
+  body {
+    background-image: url('./assets/images/BG-Large-PC.png');
+  }
+}
+
 @media (max-width: 3000px) {
   body {
     background-image: url('./assets/images/BG-Medium.png');
   }
 }
 
-/* Small screens */
+@media (max-height: 3000px) {
+  body {
+    background-image: url('./assets/images/BG-Medium-PC.png');
+  }
+}
+
 @media (max-width: 2000px) {
   body {
     background-image: url('./assets/images/BG-Small.png');
   }
 }
 
+@media (max-height: 2000px) {
+  body {
+    background-image: url('./assets/images/BG-Small-PC.png');
+  }
+}
 
-.container, .containerT, .containerTT, .containerTB {
+@media (max-height: 1000px) and (max-width: 500px) {
+  body {
+    background-image: url('./assets/images/BG-Small-Small.png');
+  }
+}
+
+/* Containers */
+.container,
+.containerT,
+.containerTT,
+.containerTB {
   max-width: 1200px;
   margin: 40px auto;
   background-color: rgba(0, 0, 0, 0.9);
@@ -58,13 +83,14 @@ body {
   margin-bottom: 0;
 }
 
+/* Header */
 header {
   color: black;
   background-color: #e0a628;
   text-align: center;
   padding: 80px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top : 0px;
+  margin-top: 0;
 }
 
 header h1 {
@@ -76,6 +102,7 @@ header p {
   font-size: 1.5rem;
 }
 
+/* Sections */
 section {
   background-color: white;
   padding: 40px;
@@ -88,12 +115,11 @@ section h2 {
   font-size: 2.5rem;
   color: #ffffff;
   margin-bottom: 20px;
-  margin-top : 0px;
+  margin-top: 0;
 }
 
 section h5 {
-  margin-top : 0px;
-  margin-bottom : 0px;
+  margin: 0;
 }
 
 section p {
@@ -102,6 +128,7 @@ section p {
   color: #c2c2c2;
 }
 
+/* List Group */
 .list-group-item {
   font-size: 1.2rem;
   padding: 15px;
@@ -118,16 +145,12 @@ section p {
   color: #007bff;
 }
 
+/* Card */
 .card {
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom : 10px;
-}
-
-.card-center {
-  margin-top: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .card-title {
@@ -142,11 +165,7 @@ section p {
 .card-text {
   font-size: 1.1rem;
   color: #868686;
-  margin : 0px;
-}
-
-.text-center {
-  margin-top: 5px;
+  margin: 0;
 }
 
 .card .btn {
@@ -168,6 +187,7 @@ section p {
   object-fit: cover;
 }
 
+/* Form */
 form {
   background-color: #f7f7f7;
   padding: 20px;
@@ -200,6 +220,7 @@ form button:hover {
   color: white;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 20px;
@@ -208,6 +229,7 @@ footer {
   font-size: 1rem;
 }
 
+/* Buttons */
 .custom-btn {
   background-color: #e0a628;
   color: black;
@@ -223,6 +245,7 @@ footer {
   color: white;
 }
 
+/* Skill Card */
 .skill-card {
   background-color: #f8f9fa;
   border-radius: 8px;
@@ -241,12 +264,7 @@ footer {
   margin-top: 10px;
 }
 
-@media (max-width: 768px) {
-  section {
-    padding: 30px;
-  }
-}
-
+/* Logo Container */
 .logo-container {
   position: fixed;
   bottom: 20px;
@@ -279,6 +297,7 @@ footer {
   transform: scale(1.2);
 }
 
+/* Toggle Arrow */
 .toggle-arrow {
   display: flex;
   justify-content: center;
@@ -293,4 +312,26 @@ footer {
 .toggle-arrow:hover {
   color: #765610;
   transform: scale(1.2);
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+/* Responsive Grid */
+@media (max-width: 1200) {
+  .skills-grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 10px;
+  }
+
+  .skill-card {
+    width: 100%;
+    max-width: 100%;
+  }
 }

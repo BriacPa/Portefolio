@@ -11,7 +11,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="BG">
+    <div>
       <Header />
       <div className="container mt-5">
         <About className="my-5" />
