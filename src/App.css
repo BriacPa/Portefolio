@@ -15,13 +15,32 @@ body {
   overflow-x: hidden;
   position: relative;
   z-index: 0;
-  background-image: url('./assets/images/pexels-athena-2582937.png');
   background-size: cover;
-  background-position: top;
+  background-position: top; /* Ensures the image stays at the top */
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; /* Keeps the background static while scrolling */
   width: 100vw;
 }
+
+/* Default background (large screens) */
+body {
+  background-image: url('./assets/images/BG-Large.png');
+}
+
+/* Medium screens */
+@media (max-width: 3000px) {
+  body {
+    background-image: url('./assets/images/BG-Medium.png');
+  }
+}
+
+/* Small screens */
+@media (max-width: 2000px) {
+  body {
+    background-image: url('./assets/images/BG-Small.png');
+  }
+}
+
 
 .container, .containerT, .containerTT, .containerTB {
   max-width: 1200px;
@@ -45,6 +64,7 @@ header {
   text-align: center;
   padding: 80px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top : 0px;
 }
 
 header h1 {

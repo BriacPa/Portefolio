@@ -4,7 +4,7 @@ import avatar from "../assets/images/avatar.jpg"; // Import the image
 const Header = () => {
   return (
     <header
-      className="text-white text-center p-5"
+      className="text-white p-5"
       style={{
         backgroundColor: "#e0a628",
         backgroundSize: "cover",
