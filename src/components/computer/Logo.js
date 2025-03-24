@@ -1,5 +1,4 @@
 import React from "react";
-import '../App.css'; // We'll style this component using CSS
 
 const Logo = () => {
   return (

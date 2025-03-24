@@ -83,6 +83,16 @@ body {
   margin-bottom: 0;
 }
 
+.containerM {
+  max-width: 1200px;
+  width: 100vw;
+  margin: 5px auto;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px;
+}
+
+
+
 /* Header */
 header {
   color: black;
@@ -321,17 +331,4 @@ footer {
   gap: 20px;
   justify-items: center;
   align-items: center;
-}
-
-/* Responsive Grid */
-@media (max-width: 1200) {
-  .skills-grid {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 0 10px;
-  }
-
-  .skill-card {
-    width: 100%;
-    max-width: 100%;
-  }
 }

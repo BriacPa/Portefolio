@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../assets/images/avatar.jpg"; // Import the image
+import avatar from "../../assets/images/avatar.jpg"; // Import the image
 
 const Header = () => {
   return (
@@ -9,8 +9,8 @@ const Header = () => {
         backgroundColor: "#e0a628",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        paddingTop: "50px", // Adjusts the padding to give some space at the top
-        paddingBottom: "50px", // Adjusts the bottom padding
+        paddingTop: "10px", // Adjusts the padding to give some space at the top
+        paddingBottom: "10px", // Adjusts the bottom padding
       }}
     >
       <div
@@ -27,8 +27,8 @@ const Header = () => {
           alt="Briac Pannetier"
           className="header-image"
           style={{
-            width: "120px",
-            height: "120px",
+            width: "60px",
+            height: "60px",
             borderRadius: "50%",
             marginRight: "20px", // Add space between image and text
           }}
@@ -44,6 +44,7 @@ const Header = () => {
             style={{
               margin: "0", // Remove any default margin
               padding: "0", // Add horizontal padding
+              fontSize: "25px",
             }}
           >
             Briac Pannetier
@@ -53,6 +54,7 @@ const Header = () => {
               marginTop: "0px", // Adds space between the title and the paragraph
               marginBottom : "0px",
               padding: "0", // Add horizontal padding
+              fontSize: "12px"
             }}
           >
             Étudiant Ingénieur Informaticien
