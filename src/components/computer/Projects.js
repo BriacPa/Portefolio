@@ -50,10 +50,21 @@ const Projects = () => {
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn custom-btn"
+                  style={{ marginRight: "15px" }}
                 >
                   <i className="fas fa-globe icon-only"></i> {/* Website Icon for mobile */}
                   <span className="text-only">Voir Déployé</span> {/* Website Text for larger screens */}
                 </a>
+                <a 
+                  href="https://vimeo.com/1068878409/d86bcb6e3a" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn custom-btn" 
+                  style={{ marginRight: "15px" }}
+                >
+                  <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
+                  <span className="text-only">Voir sur Vimeo</span> {/* Vimeo Text for larger screens */}
+                </a> 
               </div>
             </div>
           </div>
@@ -77,6 +88,26 @@ const Projects = () => {
                 >
                   <i className="fab fa-github icon-only"></i> {/* GitHub Icon for mobile */}
                   <span className="text-only">Voir sur GitHub</span> {/* GitHub Text for larger screens */}
+                </a>
+                <a 
+                  href="https://vimeo.com/1068893673/5c45af3b6f" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn custom-btn" 
+                  style={{ marginRight: "15px" }}
+                >
+                  <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
+                  <span className="text-only">Voir sur Vimeo (LSB)</span> {/* Vimeo Text for larger screens */}
+                </a>
+                <a 
+                  href="https://vimeo.com/1068893500/c0fa2c5b3d" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn custom-btn" 
+                  style={{ marginRight: "15px" }}
+                >
+                  <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
+                  <span className="text-only">Voir sur Vimeo (MSB)</span> {/* Vimeo Text for larger screens */}
                 </a>
               </div>
             </div>
@@ -103,14 +134,14 @@ const Projects = () => {
                   <span className="text-only">Voir sur GitHub</span> {/* GitHub Text for larger screens */}
                 </a>
                 <a 
-                  href="https://www.youtube.com/shorts/CuABvAZRpJk" 
+                  href="https://vimeo.com/1068893419/b21fdaf23d" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn custom-btn" 
                   style={{ marginRight: "15px" }}
                 >
-                  <i className="fab fa-youtube icon-only"></i> {/* YouTube Icon for mobile */}
-                  <span className="text-only">Voir sur YouTube</span> {/* YouTube Text for larger screens */}
+                  <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
+                  <span className="text-only">Voir sur Vimeo</span> {/* Vimeo Text for larger screens */}
                 </a>
               </div>
             </div>
