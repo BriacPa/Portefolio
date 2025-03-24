@@ -134,7 +134,7 @@ const Projects = () => {
                   className="btn custom-btn" 
                   style={{ marginRight: "15px" }}
                 >
-                  <i className="fab fa-youtube icon-only"></i> 
+                  <i className="fab fa-vimeo icon-only"></i> 
                 </a>
               </div>
             </div>
