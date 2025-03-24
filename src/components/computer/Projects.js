@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="card-body">
               <h5 className="card-title project-title">Application de Sécurité Web : Démonstration et Apprentissage</h5>
               <p className="text-center project-description">
-                Cette application web a été développée dans le cadre du cours de sécurité des applications du Dr. Michał Apolinarski de l'université de Technologie de Poznan...
+              Cette application web a été développée dans le cadre du cours de sécurité des applications du Dr. Michał Apolinarski. Elle sert de démonstration des concepts clés de la sécurité informatique, notamment l'authentification des utilisateurs, le stockage sécurisé des données et la protection contre les vulnérabilités courantes du web. Elle offre un environnement interactif permettant aux utilisateurs d'explorer et de comprendre les bonnes pratiques en matière de conception d’applications sécurisées. L'application permet de parcourir et de créer des articles, tout en intégrant différents niveaux d'autorisation pour les utilisateurs, les modérateurs et les administrateurs. Elle repose sur des technologies modernes telles que Node.js, MongoDB, React et Bootstrap et met en œuvre des mesures de sécurité comme l'utilisation de tokens HTTP-only pour protéger les sessions utilisateurs.
               </p>
               <div className="project-links">
                 <a 
