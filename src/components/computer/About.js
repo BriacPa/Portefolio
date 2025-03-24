@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="container my-5">
+    <section className="containerTT my-5">
       <h2 className="text-center">Me Concernant</h2>
       <div style={{ marginTop: "0px", marginLeft: "20px", marginRight: "20px" }}>
         <p className="text-center">
