@@ -8,7 +8,6 @@ const Projects = () => {
         {/* First Project */}
         <div className="col-md-4">
           <div className="card mb-4 project-card">
-            <img src="https://via.placeholder.com/150" alt="Project" className="card-img-top" />
             <div className="card-body">
               <h5 className="card-title project-title">Portefolio</h5>
               <p className="card-center project-description">Crée à l'aide React</p>
@@ -30,7 +29,6 @@ const Projects = () => {
         {/* Second Project */}
         <div className="col-md-4">
           <div className="card mb-4 project-card">
-            <img src="https://via.placeholder.com/150" alt="Project" className="card-img-top" />
             <div className="card-body">
               <h5 className="card-title project-title">Application de Sécurité Web : Démonstration et Apprentissage</h5>
               <p className="text-center project-description">
@@ -64,7 +62,6 @@ const Projects = () => {
         {/* Third Project */}
         <div className="col-md-4">
           <div className="card mb-4 project-card">
-            <img src="https://via.placeholder.com/150" alt="Project" className="card-img-top" />
             <div className="card-body">
               <h5 className="card-title project-title">CryptoGraph : Application de Stéganographie et Chiffrement d'Images</h5>
               <p className="text-center project-description">
@@ -89,7 +86,6 @@ const Projects = () => {
         {/* Fourth Project */}
         <div className="col-md-4">
           <div className="card mb-4 project-card">
-            <img src="https://via.placeholder.com/150" alt="Project" className="card-img-top" />
             <div className="card-body">
               <h5 className="card-title project-title">Network Scan: Outil de Sécurité pour l'Analyse Réseau</h5>
               <p className="text-center project-description">

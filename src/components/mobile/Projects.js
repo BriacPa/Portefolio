@@ -8,7 +8,7 @@ const Projects = () => {
         {/* First Project */}
         <div className="col-md-4">
           <div className="card mb-4 project-card">
-            <img src="https://via.placeholder.com/150" alt="Project" className="card-img-top" />
+            
             <div className="card-body" style={{ paddingLeft: "0px", paddingRight: "0px" }}>
 
               <h5 className="card-title project-title">Portefolio</h5>
@@ -30,7 +30,7 @@ const Projects = () => {
         {/* Second Project */}
         <div className="col-md-4">
           <div className="card mb-4 project-card">
-            <img src="https://via.placeholder.com/150" alt="Project" className="card-img-top" />
+            
             <div className="card-body" style={{ paddingLeft: "0px", paddingRight: "0px" }}>
 
               <h5 className="card-title project-title">App Sécurité Web</h5>
@@ -63,7 +63,7 @@ const Projects = () => {
         {/* Third Project */}
         <div className="col-md-4">
           <div className="card mb-4 project-card">
-            <img src="https://via.placeholder.com/150" alt="Project" className="card-img-top" />
+            
             <div className="card-body" style={{ paddingLeft: "0px", paddingRight: "0px" }}>
 
               <h5 className="card-title project-title">CryptoGraph</h5>
@@ -88,7 +88,7 @@ const Projects = () => {
         {/* Fourth Project */}
         <div className="col-md-4">
           <div className="card mb-4 project-card">
-            <img src="https://via.placeholder.com/150" alt="Project" className="card-img-top" />
+            
             <div className="card-body" style={{ paddingLeft: "0px", paddingRight: "0px" }}>
 
               <h5 className="card-title project-title">Network Scan</h5>
