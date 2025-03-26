@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
+
 const Projects = () => {
   const [showMore1, setShowMore1] = useState(false);
   const [showMore2, setShowMore2] = useState(false);
@@ -324,3 +325,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

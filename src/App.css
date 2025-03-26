@@ -365,3 +365,75 @@ footer {
 .project-links {
   margin-top : 15px;
 }
+
+/* Contact.css */
+.containerTBC {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h2.text-center {
+  color: rgb(160, 160, 160);
+}
+
+.list-group-item {
+  color: rgb(160, 160, 160);
+}
+
+.list-group-item a {
+  color: rgb(160, 160, 160);
+}
+
+.list-group-item a:hover {
+  text-decoration: underline;
+}
+
+/* Header.css */
+
+/* Main header styling */
+header {
+  background-color: #e0a628;
+  color: black; /* Change text color to black */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Header content section */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* Avatar image styling */
+.header-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Text section styling */
+header div {
+  text-align: left;
+  padding-top: 18px;
+  padding-bottom: 22px;
+}
+
+/* Title and paragraph styling */
+h1 {
+  margin: 0;
+  padding: 0;
+  color: black; /* Ensure the title text is black */
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  color: black; /* Ensure the paragraph text is black */
+}
+

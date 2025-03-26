@@ -1,0 +1,154 @@
+/* Container and Layout */
+.project-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .project-links {
+    margin-top: 15px;
+  }
+  
+  .project-links .project-btn {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-links .project-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  /* Icon Styles */
+  .icon-only {
+    font-size: 1.5rem;
+    margin-right: 5px;
+  }
+  
+  .text-only {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .text-only {
+      display: inline-block;
+    }
+    .icon-only {
+      display: none;
+    }
+  }
+  
+  /* Toggle Arrow */
+  .toggle-arrow {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .toggle-arrow:hover {
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 767px) {
+    .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body .project-btn {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .card-body .project-btn:first-child {
+    margin-left: 0;
+  }
+  
+  .card-body .project-btn:last-child {
+    margin-right: 0;
+  }
+  
+  /* Project Card Hover Effect */
+  .project-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Font Awesome and Icons */
+  .fab, .fas {
+    font-size: 1.25rem;
+  }
+  
+  /* Custom Button Styles */
+  .project-btn {
+    background-color: #007bff;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .project-btn:active {
+    transform: scale(1);
+  }
+  
+  /* Card Container Spacing */
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Spacing for Heading */
+  h2 {
+    margin-bottom: 30px;
+  }
+  
