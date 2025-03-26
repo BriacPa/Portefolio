@@ -70,7 +70,7 @@ body {
 .containerTB {
   max-width: 1200px;
   margin: 40px auto;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.75);
   padding: 30px;
   border-radius: 10px;
 }
@@ -331,4 +331,8 @@ footer {
   gap: 20px;
   justify-items: center;
   align-items: center;
+}
+
+.project-links {
+  margin-top : 15px;
 }

@@ -45,15 +45,14 @@ const Education = () => {
           <p className="text-center">
             {showMore2 ? (
               <>
-                Lors de ces trois années d’études (2023-2025) j’ai pu me spécifier en informatique. J’ai donc pu me familiariser avec différents sujets tels que : Le traitement d’images, la Programmation orientée objet, le développement web, la supervision, l’IA, l’agilité...
-                <br />
+              Au cours de mes trois années d'études (2023-2025), je me suis spécialisé dans le domaine de l'informatique, ce qui m'a offert l'opportunité d'explorer une multitude de sujets techniques et passionnants. J'ai pu développer des compétences solides en traitement d'images, en programmation orientée objet, ainsi qu'en développement web. Ces disciplines m'ont permis de comprendre les bases de la conception d'applications et de systèmes performants. En parallèle, j'ai approfondi mes connaissances en supervision des systèmes, une compétence cruciale pour assurer le bon fonctionnement et la sécurité des infrastructures. Mon parcours m'a également permis de me familiariser avec l'intelligence artificielle, en abordant des concepts essentiels tels que l'apprentissage automatique et les réseaux neuronaux. Enfin, j'ai eu l'occasion d'adopter des méthodologies agiles, qui m'ont appris à travailler de manière collaborative et à m'adapter aux besoins changeants des projets. Ces diverses expériences ont été déterminantes pour développer une approche polyvalente et rigoureuse face aux défis technologiques modernes, me préparant ainsi à une carrière dynamique et orientée vers l'innovation.                <br />
                 <span className="toggle-arrow" onClick={() => setShowMore2(false)}>
                   <FaChevronUp />
                 </span>
               </>
             ) : (
               <>
-                Lors de ces trois années d’études (2023-2025) j’ai pu me spécifier en informatique...
+              Au cours de mes trois années d'études (2023-2025), je me suis spécialisé dans le domaine de l'informatique...
                 <br />
                 <span className="toggle-arrow" onClick={() => setShowMore2(true)}>
                   <FaChevronDown />
@@ -72,7 +71,7 @@ const Education = () => {
           <p className="text-center">
             {showMore3 ? (
               <>
-                Au cours de ma troisième année d’étude en école d’ingénieur, j’ai effectué un semestre en Pologne à l’Université Technologique de Poznań. Cela m’a permis de suivre un cursus dispensé en anglais. J’ai aussi eu l’opportunité de découvrir la culture polonaise et d’échanger avec des étudiants de divers horizons.
+              Lors de ma troisième année d'études en école d'ingénieur, j'ai eu la chance d'effectuer un semestre à l'Université Technologique de Poznań, en Pologne. Cette expérience m'a offert l'opportunité de suivre un programme académique en anglais, renforçant ainsi mes compétences linguistiques tout en découvrant une nouvelle manière d'apprendre. En parallèle des cours, j'ai pu explorer la culture polonaise, ses coutumes et son mode de vie, tout en m'intégrant dans un environnement international. Cet échange avec des étudiants de différents pays a enrichi ma vision du monde et m'a permis de développer des compétences interculturelles précieuses. Cette expérience a été aussi bien enrichissante sur le plan académique que personnel, me préparant à évoluer dans un environnement professionnel globalisé.                
                 <br />
                 <span className="toggle-arrow" onClick={() => setShowMore3(false)}>
                   <FaChevronUp />
@@ -80,7 +79,7 @@ const Education = () => {
               </>
             ) : (
               <>
-                Au cours de ma troisième année d’étude en école d’ingénieur, j’ai effectué un semestre en Pologne...
+              Lors de ma troisième année d'études en école d'ingénieur, j'ai eu la chance d'effectuer un semestre à l'Université Technologique de Poznań, en Pologne...
                 <br />
                 <span className="toggle-arrow" onClick={() => setShowMore3(true)}>
                   <FaChevronDown />

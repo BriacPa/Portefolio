@@ -7,7 +7,7 @@ const Logo = () => {
       style={{
         position: "fixed", // Keep the icons fixed on the screen
         top: "50%", // Center vertically
-        transform: "translateY(-30%)", // Correct vertical centering
+        transform: "translateY(-0%)", // Correct vertical centering
         left: "auto", // Ensure it's not positioned on the left
         right: "0", // Align to the right edge of the screen
         marginLeft: "auto", // Push to the right using flexbox
