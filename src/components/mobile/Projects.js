@@ -18,7 +18,7 @@ const Projects = () => {
             <div className="card-body">
               <h5 className="card-title project-title">Portefolio</h5>
               <p className="card-center project-description">
-              {showMore2 ? (
+              {showMore1 ? (
                     <>
                     Ce site est mon portfolio en ligne, conçu avec React pour offrir une navigation fluide et interactive. Il fonctionne comme un CV numérique, mettant en avant mon parcours, mes compétences et mes projets. On y trouve une présentation détaillée de mon expérience, des réalisations en développement web et cybersécurité, ainsi que des liens vers mes travaux open source et démonstrations vidéo. 🚀💻
                     <br />
@@ -32,7 +32,7 @@ const Projects = () => {
                   <i className="fab fa-github icon-only"></i> {/* GitHub Icon for mobile */}
                 </a>
               </div>
-                      <span className="toggle-arrow" onClick={() => setShowMore2(false)}>
+                      <span className="toggle-arrow" onClick={() => setShowMore1(false)}>
                         <FaChevronUp />
                       </span>
                     </>
@@ -50,7 +50,7 @@ const Projects = () => {
                   <i className="fab fa-github icon-only"></i> {/* GitHub Icon for mobile */}
                 </a>
               </div>
-                      <span className="toggle-arrow" onClick={() => setShowMore2(true)}>
+                      <span className="toggle-arrow" onClick={() => setShowMore1(true)}>
                         <FaChevronDown />
                       </span>
                     </>
