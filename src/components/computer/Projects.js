@@ -9,7 +9,7 @@ const Projects = () => {
 
 
   return (
-    <section className="containerT my-5">
+    <section className="containerTC my-5">
       <h2 className="text-center">Projets</h2>
       <div className="row">
         {/* First Project */}

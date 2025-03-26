@@ -75,6 +75,35 @@ body {
   border-radius: 10px;
 }
 
+.container,
+.containerT,
+.containerTT,
+.containerTB {
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.containerTC,
+.containerTTC,
+.containerTBC {
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.containerTTC {
+  margin-top: 0;
+
+}
+.containerTBC {
+  margin-bottom: 0;
+}
+
 .containerTT {
   margin-top: 0;
 }

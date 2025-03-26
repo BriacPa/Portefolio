@@ -6,7 +6,7 @@ const Experience = () => {
   const [showMore2, setShowMore2] = useState(false);
 
   return (
-    <section className="containerT my-5">
+    <section className="containerTC my-5">
       <h2 className="text-center">Experience</h2>
       <div className="row">
         {/* First Experience */}

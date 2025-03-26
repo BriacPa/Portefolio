@@ -7,7 +7,7 @@ const Education = () => {
   const [showMore3, setShowMore3] = useState(false);
 
   return (
-    <section className="containerT my-5">
+    <section className="containerTC my-5">
       <h2 className="text-center">Education</h2>
 
       {/* Classe préparatoire */}

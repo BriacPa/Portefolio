@@ -5,7 +5,7 @@ const About = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <section className="container my-5">
+    <section className="containerTTC my-5">
       <h2 className="text-center">Me Concernant</h2>
       <div>
         {showMore ? (

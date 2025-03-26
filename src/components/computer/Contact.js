@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="containerTB my-5">
+    <section className="containerTBC my-5">
       <h2 className="text-center" style={{ color: "rgb(160, 160, 160)" }}>Contact</h2>
       <ul className="list-group">
         <li className="list-group-item" style={{ color: "rgb(160, 160, 160)" }}>
