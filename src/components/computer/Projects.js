@@ -276,7 +276,7 @@ const Projects = () => {
               <p className="text-center project-description">
                 {showMore4 ? (
                   <>
-                    Le projet "Wi-Fi Scanner with OLED Display (ESP32)" est une application développée pour l'ESP32 qui permet de scanner les réseaux Wi-Fi environnants et d'afficher les informations collectées sur un écran OLED SH1106 de 128x64 pixels. Utilisant les bibliothèques `U8g2lib`, `WiFi.h` et `esp_wifi.h`, cette application effectue des scans Wi-Fi de manière asynchrone, affichant en temps réel les détails des réseaux détectés, tels que le SSID, la force du signal (RSSI), le type de cryptage, le canal et l'adresse MAC. Une barre de progression mise à jour chaque seconde indique l'état du scan en cours. Le matériel requis comprend une carte de développement ESP32, un écran OLED SH1106 avec interface I2C, et des fils pour connecter les broches SDA et SCL de l'écran aux broches correspondantes de l'ESP32 (par défaut, SDA sur la broche 21 et SCL sur la broche 22, modifiables dans le code si nécessaire).
+                    Le projet "Wi-Fi Scanner with OLED Display (ESP32") est une application développée pour l'ESP32 qui permet de scanner les réseaux Wi-Fi environnants et d'afficher les informations collectées sur un écran OLED SH1106 de 128x64 pixels. Utilisant les bibliothèques `U8g2lib`, `WiFi.h` et `esp_wifi.h`, cette application effectue des scans Wi-Fi de manière asynchrone, affichant en temps réel les détails des réseaux détectés, tels que le SSID, la force du signal (RSSI), le type de cryptage, le canal et l'adresse MAC. Une barre de progression mise à jour chaque seconde indique l'état du scan en cours. Le matériel requis comprend une carte de développement ESP32, un écran OLED SH1106 avec interface I2C, et des fils pour connecter les broches SDA et SCL de l'écran aux broches correspondantes de l'ESP32 (par défaut, SDA sur la broche 21 et SCL sur la broche 22, modifiables dans le code si nécessaire).
                     <br />
                     <div className="project-links">
                       <a
@@ -306,7 +306,7 @@ const Projects = () => {
                   </>
                 ) : (
                   <>
-                    Le projet "Wi-Fi Scanner with OLED Display (ESP32)" est une application développée pour l'ESP32...
+                    Le projet "Wi-Fi Scanner with OLED Display (ESP32") est une application développée pour l'ESP32...
                     <br />
                     <div className="project-links">
                       <a
