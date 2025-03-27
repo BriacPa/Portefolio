@@ -49,7 +49,7 @@ const Projects = () => {
                       <br />
                       <div className="project-links">
                 <a
-                  href="https://github.com/johndoe/portfolio"
+                  href="https://github.com/BriacPa/Portefolio"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn custom-btn"
