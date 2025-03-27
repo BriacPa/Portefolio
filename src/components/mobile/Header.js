@@ -57,7 +57,7 @@ const Header = () => {
               fontSize: "12px"
             }}
           >
-            Étudiant Ingénieur Informaticien
+            Étudiant Ingénieur en Informatique
           </p>
         </div>
       </div>

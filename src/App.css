@@ -392,7 +392,7 @@ h2.text-center {
 
 /* Main header styling */
 header {
-  background-color: #e0a628;
+  background-color:#e0a628;
   color: black; /* Change text color to black */
   padding-top: 50px;
   padding-bottom: 50px;
@@ -435,5 +435,31 @@ p {
   margin-bottom: 0;
   padding: 0;
   color: black; /* Ensure the paragraph text is black */
+}
+
+.tags {
+  margin: 5px 0px 10px 5px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tagsM {
+  margin: 5px 0px 10px 0px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.project-tag {
+  background-color: rgba(0, 0, 0, 1);
+  color: #e0a628;
+  font-size: 0.7em;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0px;
+  border: 1px solid #e0a628; 
 }
 

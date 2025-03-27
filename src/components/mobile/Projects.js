@@ -17,6 +17,11 @@ const Projects = () => {
           <div className="card mb-4 project-card">
             <div className="card-body">
               <h5 className="card-title project-title">Portefolio</h5>
+              <div className="tagsM">
+                {["React", "Front-End", "Portfolio"].map((tag, index) => (
+                  <span key={index} className="project-tag">{tag}</span>
+                ))}
+              </div>
               <p className="card-center project-description">
               {showMore1 ? (
                     <>
@@ -66,6 +71,11 @@ const Projects = () => {
           <div className="card mb-4 project-card">
             <div className="card-body">
               <h5 className="card-title project-title">Application de Sécurité Web : Démonstration et Apprentissage</h5>
+              <div className="tagsM">
+                {["Cybersecurity", "Web Security", "Node.js", "React", "MongoDB"].map((tag, index) => (
+                  <span key={index} className="project-tag">{tag}</span>
+                ))}
+              </div>
               <p className="text-center project-description">
               {showMore2 ? (
                     <>
@@ -152,6 +162,11 @@ const Projects = () => {
           <div className="card mb-4 project-card">
             <div className="card-body">
               <h5 className="card-title project-title">CryptoGraph : Application de Stéganographie et Chiffrement d'Images</h5>
+              <div className="tagsM">
+                {["Python", "Cryptography", "Steganography", "AES", "GUI"].map((tag, index) => (
+                  <span key={index} className="project-tag">{tag}</span>
+                ))}
+              </div>
               <p className="text-center project-description">
                 {showMore3 ? (
                     <>
@@ -238,6 +253,11 @@ const Projects = () => {
           <div className="card mb-4 project-card">
             <div className="card-body">
               <h5 className="card-title project-title">Network Scan: Outil de Sécurité pour l'Analyse Réseau</h5>
+              <div className="tagsM">
+                {["ESP32", "Wi-Fi", "Networking", "Cybersecurity", "IoT"].map((tag, index) => (
+                  <span key={index} className="project-tag">{tag}</span>
+                ))}
+              </div>
               <p className="text-center project-description">
                 {showMore4 ? (
                   <>
