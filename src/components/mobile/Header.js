@@ -9,17 +9,17 @@ const Header = () => {
         backgroundColor: "#e0a628",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        paddingTop: "10px", // Adjusts the padding to give some space at the top
-        paddingBottom: "10px", // Adjusts the bottom padding
+        paddingTop: "10px",
+        paddingBottom: "10px",
       }}
     >
       <div
         className="header-content"
         style={{
           display: "flex",
-          alignItems: "center", // Vertically centers the image and text
-          justifyContent: "center", // Horizontally center everything
-          flexDirection: "row", // Places image and text in a row
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "row",
         }}
       >
         <img
@@ -30,20 +30,20 @@ const Header = () => {
             width: "60px",
             height: "60px",
             borderRadius: "50%",
-            marginRight: "20px", // Add space between image and text
+            marginRight: "20px",
           }}
         />
         <div
           style={{
             textAlign: "left",
-            paddingTop: "18px", // Adjust vertical padding to center the text
-            paddingBottom: "22px", // Adjust vertical padding to center the text
+            paddingTop: "18px",
+            paddingBottom: "22px",
           }}
         >
           <h1
             style={{
-              margin: "0", // Remove any default margin
-              padding: "0", // Add horizontal padding
+              margin: "0",
+              padding: "0",
               fontSize: "25px",
             }}
           >
@@ -51,9 +51,9 @@ const Header = () => {
           </h1>
           <p
             style={{
-              marginTop: "0px", // Adds space between the title and the paragraph
-              marginBottom : "0px",
-              padding: "0", // Add horizontal padding
+              marginTop: "0px",
+              marginBottom: "0px",
+              padding: "0",
               fontSize: "12px"
             }}
           >

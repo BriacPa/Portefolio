@@ -5,12 +5,12 @@ const Logo = () => {
     <div
       className="logo-container"
       style={{
-        position: "fixed", // Keep the icons fixed on the screen
-        top: "50%", // Center vertically
-        transform: "translateY(-0%)", // Correct vertical centering
-        left: "auto", // Ensure it's not positioned on the left
-        right: "0", // Align to the right edge of the screen
-        marginLeft: "auto", // Push to the right using flexbox
+        position: "fixed",
+        top: "50%",
+        transform: "translateY(-50%)",
+        left: "auto",
+        right: "0",
+        marginLeft: "auto",
       }}
     >
       <div
@@ -18,15 +18,15 @@ const Logo = () => {
         style={{
           display: "flex",
           flexDirection: "column",
-          alignItems: "center", // Keep the icons stacked vertically
-          gap: "0px", // Space between icons
+          alignItems: "center",
+          gap: "0px",
         }}
       >
         <a
           href="https://www.linkedin.com/in/briac-pannetier-9321912a4/"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ margin: "4px" }} // Applied margin to LinkedIn link
+          style={{ margin: "4px" }}
         >
           <i className="fab fa-linkedin" style={{ fontSize: "1rem" }}></i>
         </a>
@@ -34,7 +34,7 @@ const Logo = () => {
           href="mailto:briac.pannetier.02@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ margin: "4px" }} // Applied margin to Email link
+          style={{ margin: "4px" }}
         >
           <i className="fas fa-envelope" style={{ fontSize: "1rem" }}></i>
         </a>
@@ -42,9 +42,17 @@ const Logo = () => {
           href="tel:+33785978387"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ margin: "4px" }} // Applied margin to Phone link
+          style={{ margin: "4px" }}
         >
           <i className="fas fa-phone-alt" style={{ fontSize: "1rem" }}></i>
+        </a>
+        <a
+          href="https://github.com/BriacPa"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ margin: "4px" }}
+        >
+          <i className="fab fa-github" style={{ fontSize: "1rem" }}></i>
         </a>
       </div>
     </div>
