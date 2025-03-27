@@ -10,7 +10,7 @@ const Skills = () => {
     { name: "JavaScript", icon: "bi-braces", progress: 45 },
     { name: "React", icon: "bi-code-slash", progress: 70 },
     { name: "Node.js", icon: "bi-code-slash", progress: 65 },
-    { name: "Git", icon: "bi-git", progress: 85 },
+    { name: "Git", icon: "bi-git", progress: 65 },
     { name: "Bootstrap", icon: "bi-bootstrap", progress: 75 },
     { name: "Python", icon: "bi-patch-check", progress: 85 },
     { name: "SQL", icon: "bi-database", progress: 80 },
