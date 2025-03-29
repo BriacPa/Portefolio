@@ -5,19 +5,22 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const Skills = () => {
   const allTechnicalSkills = [
-    { name: "HTML", icon: "bi-braces", progress: 65 },
-    { name: "CSS", icon: "bi-braces", progress: 60 },
-    { name: "JavaScript", icon: "bi-braces", progress: 45 },
+    { name: "HTML", icon: "bi-filetype-html", progress: 65 },
+    { name: "CSS", icon: "bi-filetype-css", progress: 60 },
+    { name: "JavaScript", icon: "bi-filetype-js", progress: 45 },
     { name: "React", icon: "bi-code-slash", progress: 70 },
-    { name: "Node.js", icon: "bi-code-slash", progress: 65 },
+    { name: "Node.js", icon: "bi-node-plus", progress: 65 },
     { name: "Git", icon: "bi-git", progress: 65 },
     { name: "Bootstrap", icon: "bi-bootstrap", progress: 75 },
-    { name: "Python", icon: "bi-patch-check", progress: 85 },
+    { name: "Python", icon: "bi-filetype-py", progress: 85 },
     { name: "SQL", icon: "bi-database", progress: 80 },
     { name: "NoSQL", icon: "bi-database-fill", progress: 75 },
-    { name: "C++", icon: "bi-file-earmark-code", progress: 60 },
-    { name: "C", icon: "bi-file-earmark-code", progress: 40 },
-    { name: "Java", icon: "bi-file-earmark-code", progress: 20 },
+    { name: "C++", icon: "bi-filetype-cpp", progress: 60 },
+    { name: "C", icon: "bi-filetype-c", progress: 40 },
+    { name: "Java", icon: "bi-filetype-java", progress: 20 },
+    { name: "Angular", icon: "bi-code-slash", progress: 20 },
+    { name: "PHP", icon: "bi-filetype-php", progress: 20 },
+    { name: "Arduino", icon: "bi-motherboard", progress: 55 },
   ];
   
   const allLanguages = [
@@ -38,11 +41,15 @@ const Skills = () => {
     { name: "Communication", icon: "bi-chat-left", progress: 85 },
     { name: "Gestion du temps", icon: "bi-clock", progress: 90 },
     { name: "Multitâche", icon: "bi-arrow-up-right-circle", progress: 75 },
-    { name: "Gestion des conflits", icon: "bi-patch-check", progress: 100 },
     { name: "Souci du détail", icon: "bi-check-circle", progress: 100 },
     { name: "Créativité", icon: "bi-brush", progress: 90 },
     { name: "Négociation", icon: "bi-chat-dots", progress: 70 },
-    { name: "Motivation", icon: "bi-person-fill", progress: 85 },
+    { name: "Motivation", icon: "bi-person-fill", progress: 100 },
+    { name: "Empathie", icon: "bi-emoji-smile", progress: 100 },
+    { name: "Flexibilité", icon: "bi-arrow-repeat", progress: 100 },
+    { name: "Gestion du stress", icon: "bi-shield-lock", progress: 100 },
+    { name: "Prise de décision", icon: "bi-check2-square", progress: 85 },
+    { name: "Persévérance", icon: "bi-shield-fill-check", progress: 90 },
   ];
   
   // Function to sort by progress (desc) and name (asc)
