@@ -1,7 +1,6 @@
 import React from "react";
 import avatar from "../../assets/images/avatar.jpg"; // Import the image
 
-
 const Header = () => {
   return (
     <header
@@ -62,8 +61,14 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <a href="/path/to/your/cv.pdf" download className="cv-buttonM">
-        <i className="bi bi-download download-iconM"></i>
+      {/* Link to open the CV in a new tab */}
+      <a
+        href="https://drive.google.com/file/d/16NQOObf8VOyfVeSt0PuB7vbWHJGPCcaF/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="cv-buttonM"
+      >
+        <i className="bi bi-eye download-iconM"></i>
         CV
       </a>
     </header>
