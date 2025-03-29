@@ -119,34 +119,34 @@ const Projects = () => {
                     Cette application web a été développée dans le cadre du cours de sécurité des applications du Dr. Michał Apolinarski...
                       <br />
                       <div className="project-links">
-                        <a
-                          href="https://github.com/BriacPa/BDAS_Project"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn custom-btn"
-                          style={{ marginRight: "15px" }}
-                        >
-                          <i className="fab fa-github icon-only"></i> {/* GitHub Icon for mobile */}
-                        </a>
-                        <a
-                          href="https://vimeo.com/1068893673/5c45af3b6f"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn custom-btn"
-                          style={{ marginRight: "15px" }}
-                        >
-                          <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                        </a>
-                        <a
-                          href="https://vimeo.com/1068893500/c0fa2c5b3d"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn custom-btn"
-                          style={{ marginRight: "15px" }}
-                        >
-                          <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                        </a>
-                      </div>
+                <a
+                  href="https://github.com/BriacPa/APP_SEC_APP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn custom-btn"
+                  style={{ marginRight: "15px" }}
+                >
+                  <i className="fab fa-github icon-only"></i> {/* GitHub Icon for mobile */}
+                </a>
+                <a
+                  href="https://app-sec-app-client.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn custom-btn"
+                  style={{ marginRight: "15px" }}
+                >
+                  <i className="fas fa-globe icon-only"></i> {/* Website Icon for mobile */}
+                </a>
+                <a
+                  href="https://vimeo.com/1068878409/d86bcb6e3a"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn custom-btn"
+                  style={{ marginRight: "15px" }}
+                >
+                  <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
+                </a>
+              </div>
                       <span className="toggle-arrow" onClick={() => setShowMore2(true)}>
                         <FaChevronDown />
                       </span>
