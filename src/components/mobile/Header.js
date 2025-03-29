@@ -1,6 +1,7 @@
 import React from "react";
 import avatar from "../../assets/images/avatar.jpg"; // Import the image
 
+
 const Header = () => {
   return (
     <header
@@ -61,6 +62,10 @@ const Header = () => {
           </p>
         </div>
       </div>
+      <a href="/path/to/your/cv.pdf" download className="cv-buttonM">
+        <i className="bi bi-download download-iconM"></i>
+        CV
+      </a>
     </header>
   );
 };
