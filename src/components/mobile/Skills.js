@@ -21,6 +21,8 @@ const Skills = () => {
     { name: "Angular", icon: "bi-code-slash", progress: 20 },
     { name: "PHP", icon: "bi-filetype-php", progress: 20 },
     { name: "Arduino", icon: "bi-motherboard", progress: 55 },
+    { name: "Cisco", icon: "bi-router", progress: 50 },
+    { name: "Juniper", icon: "bi-router", progress: 38 },
   ];
   
   const allLanguages = [
