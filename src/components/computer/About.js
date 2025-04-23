@@ -35,7 +35,7 @@ const About = () => {
         ) : (
           <>
             <p className="text-center">
-              Actuellement étudiant en ingénierie informatique depuis 2020, je suis passionné par le développement logiciel, les nouvelles technologies et l'innovation. Dans le cadre de mon cursus, je suis à la recherche d’un stage de 8 à 14 semaines, prévu entre avril et août 2025. Ce stage représente pour moi une opportunité d'appliquer les compétences acquises tout en découvrant de nouveaux environnements professionnels.
+            Actuellement étudiant en ingénierie informatique depuis 2020, je suis passionné par le développement logiciel, les nouvelles technologies et l'innovation. Dans le cadre de mon cursus, je suis à la recherche d’un stage. Ce stage représente pour moi une opportunité d'appliquer les compétences acquises tout en découvrant de nouveaux environnements professionnels.
             </p>
             <br />
             <span className="toggle-arrow" onClick={() => setShowMore(true)}>
