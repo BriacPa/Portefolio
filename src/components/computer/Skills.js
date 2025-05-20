@@ -23,6 +23,7 @@ const Skills = () => {
     { name: "Arduino", icon: "bi-motherboard", progress: 55 },
     { name: "Cisco", icon: "bi-router", progress: 50 },
     { name: "Juniper", icon: "bi-router", progress: 38 },
+    { name: "LabVIEW", icon: "bi-diagram-3", progress: 38 },
   ];
   
   const allLanguages = [
