@@ -63,7 +63,7 @@ const Header = () => {
       </div>
       {/* Link to open the CV in a new tab */}
       <a
-        href="https://drive.google.com/file/d/1vBoxbybvv9CXku7MNaMFr_YTIvrEvrfD/view?usp=sharing"
+        href="https://drive.google.com/file/d/1kAgzwyVHWeYB14vArEPM_vKEI5-g6Rbb/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="cv-buttonM"
