@@ -6,7 +6,7 @@ const Contact = () => {
       <h2 className="text-center">Contact</h2>
       <ul className="list-group">
         <li className="list-group-item">
-          <strong>Email : </strong> briac.pannetier.02@gmail.com
+          <strong>Email : </strong> briac.pannetier.02@proton.me
         </li>
         <li className="list-group-item">
           <strong>LinkedIn : </strong>

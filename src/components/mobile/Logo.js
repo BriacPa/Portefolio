@@ -31,7 +31,7 @@ const Logo = () => {
           <i className="fab fa-linkedin" style={{ fontSize: "1rem" }}></i>
         </a>
         <a
-          href="mailto:briac.pannetier.02@gmail.com"
+          href="mailto:briac.pannetier.02@proton.me"
           target="_blank"
           rel="noopener noreferrer"
           style={{ margin: "4px" }}

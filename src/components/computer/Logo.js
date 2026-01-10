@@ -14,7 +14,7 @@ const Logo = () => {
         </a>
         
         {/* Email Icon */}
-        <a href="mailto:briac.pannetier.02@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:briac.pannetier.02@proton.me" target="_blank" rel="noopener noreferrer">
           <i className="fas fa-envelope"></i>
         </a>
         
