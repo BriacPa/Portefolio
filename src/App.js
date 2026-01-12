@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./components/computer/Header";
 import About from "./components/computer/About";
 import Experience from "./components/computer/Experience";
+import VieAssociative from "./components/computer/VieAssociative";
 import Education from "./components/computer/Education";
 import Skills from "./components/computer/Skills";
 import Projects from "./components/computer/Projects";
@@ -60,9 +61,10 @@ const App = () => {
           <Header />
           <div className="container mt-5">
             <About className="my-5" />
+			<Experience className="my-5" />
             <Projects className="my-5" />
-            <Experience className="my-5" />
             <Education className="my-5" />
+			<VieAssociative className="my-5" />
             <Skills className="my-5" />
             <Contact className="my-5" />
             <Logo />
