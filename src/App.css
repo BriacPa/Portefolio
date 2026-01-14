@@ -510,3 +510,53 @@ header {
   margin-right: 5px; /* Space between icon and text (increased for better separation) */
   font-size: 15px; /* Updated icon size (slightly smaller than before) */
 }
+
+/* Video */
+.vid-h2 {
+  color: rgb(160, 160, 160);
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+/* Video Page Header */
+.video-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /* vertical centering of children */
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.video-header h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ffffff;
+  line-height: 1;       /* remove extra spacing */
+  display: flex;         /* make it a flex container */
+  align-items: center;   /* vertically center text inside h2 */
+}
+
+/* Simple Bold Arrow Back Button */
+.video-header .back-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 2.5rem;       /* match h2 height roughly */
+  line-height: 1;           /* important for vertical centering */
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+
+.video-header .back-btn:hover {
+  color: #e0a628;        
+  transform: scale(1.1);
+}
+
