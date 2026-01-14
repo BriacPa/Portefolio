@@ -24,6 +24,9 @@ const Skills = () => {
     { name: "Cisco", icon: "bi-router", progress: 50 },
     { name: "Juniper", icon: "bi-router", progress: 38 },
     { name: "LabVIEW", icon: "bi-diagram-3", progress: 38 },
+	{ name: "VBScript", icon: "bi-windows", progress: 50 },
+	{ name: "PowerShell", icon: "bi-terminal", progress: 45 },
+	{ name: "Bash", icon: "bi-terminal-fill", progress: 35 },
   ];
   
   const allLanguages = [
@@ -32,28 +35,28 @@ const Skills = () => {
     { name: "Polonais", flag: "PL", progress: 5 },
   ];
   
-  const allOtherSkills = [
-    { name: "Sociable", icon: "bi-person-check", progress: 100 },
-    { name: "Créatif", icon: "bi-lightbulb", progress: 75 },
-    { name: "Assidu", icon: "bi-check-circle", progress: 100 },
-    { name: "Organisé", icon: "bi-calendar-check", progress: 85 },
-    { name: "Adaptable", icon: "bi-arrow-repeat", progress: 100 },
-    { name: "Travail d'équipe", icon: "bi-person-lines-fill", progress: 95 },
-    { name: "Résolution de problèmes", icon: "bi-lightbulb", progress: 75 },
-    { name: "Leadership", icon: "bi-person-badge", progress: 75 },
-    { name: "Communication", icon: "bi-chat-left", progress: 85 },
-    { name: "Gestion du temps", icon: "bi-clock", progress: 90 },
-    { name: "Multitâche", icon: "bi-arrow-up-right-circle", progress: 75 },
-    { name: "Souci du détail", icon: "bi-check-circle", progress: 100 },
-    { name: "Créativité", icon: "bi-brush", progress: 90 },
-    { name: "Négociation", icon: "bi-chat-dots", progress: 70 },
-    { name: "Motivation", icon: "bi-person-fill", progress: 100 },
-    { name: "Empathie", icon: "bi-emoji-smile", progress: 100 },
-    { name: "Flexibilité", icon: "bi-arrow-repeat", progress: 100 },
-    { name: "Gestion du stress", icon: "bi-shield-lock", progress: 100 },
-    { name: "Prise de décision", icon: "bi-check2-square", progress: 85 },
-    { name: "Persévérance", icon: "bi-shield-fill-check", progress: 90 },
-  ];
+const allOtherSkills = [
+	{ name: "Sociable", icon: "bi-person-check", progress: 100 },
+	{ name: "Créatif", icon: "bi-lightbulb", progress: 75 },
+	{ name: "Assidu", icon: "bi-check-circle", progress: 100 },
+	{ name: "Organisé", icon: "bi-calendar-check", progress: 85 },
+	{ name: "Adaptable", icon: "bi-arrow-repeat", progress: 100 },
+	{ name: "Collaboratif", icon: "bi-person-lines-fill", progress: 95 }, // Travail d'équipe
+	{ name: "Analytique", icon: "bi-lightbulb", progress: 75 }, // Résolution de problèmes
+	{ name: "Leader", icon: "bi-person-badge", progress: 75 }, // Leadership
+	{ name: "Communicatif", icon: "bi-chat-left", progress: 85 },
+	{ name: "Ponctuel", icon: "bi-clock", progress: 90 }, // Gestion du temps
+	{ name: "Polyvalent", icon: "bi-arrow-up-right-circle", progress: 75 }, // Multitâche
+	{ name: "Minutieux", icon: "bi-check-circle", progress: 100 }, // Souci du détail
+	{ name: "Inventif", icon: "bi-brush", progress: 90 }, // Créativité
+	{ name: "Persuasif", icon: "bi-chat-dots", progress: 70 }, // Négociation
+	{ name: "Motivé", icon: "bi-person-fill", progress: 100 },
+	{ name: "Empathique", icon: "bi-emoji-smile", progress: 100 },
+	{ name: "Flexible", icon: "bi-arrow-repeat", progress: 100 },
+	{ name: "Résilient", icon: "bi-shield-lock", progress: 100 }, // Gestion du stress
+	{ name: "Décisif", icon: "bi-check2-square", progress: 85 }, // Prise de décision
+	{ name: "Persévérant", icon: "bi-shield-fill-check", progress: 90 },
+];
   
   // Function to sort by progress (desc) and name (asc)
   const sortSkills = (skills) => {

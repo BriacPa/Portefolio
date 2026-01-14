@@ -13,6 +13,7 @@ import Logo from "./components/computer/Logo";
 import HeaderM from "./components/mobile/Header";
 import AboutM from "./components/mobile/About";
 import ExperienceM from "./components/mobile/Experience";
+import VieAssociativeM from "./components/mobile/VieAssociative";
 import EducationM from "./components/mobile/Education";
 import SkillsM from "./components/mobile/Skills";
 import ProjectsM from "./components/mobile/Projects";
@@ -30,6 +31,7 @@ const MobileView = () => {
         <ProjectsM className="my-5" />
         <ExperienceM className="my-5" />
         <EducationM className="my-5" />
+        <VieAssociativeM className="my-5" />
         <SkillsM className="my-5" />
         <ContactM className="my-5" />
         <LogoM />

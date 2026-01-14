@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 const Projects = () => {
   const [showMore1, setShowMore1] = useState(false);
@@ -100,15 +102,12 @@ const Projects = () => {
                 >
                   <i className="fas fa-globe icon-only"></i> {/* Website Icon for mobile */}
                 </a>
-                <a
-                  href="https://vimeo.com/1068878409/d86bcb6e3a"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn custom-btn"
-                  style={{ marginRight: "15px" }}
-                >
-                  <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                </a>
+                <Link
+				to="/APP-SEC"
+				className="btn custom-btn"
+				>
+				<i className="fas fa-play icon-only" style={{ marginRight: "5px" }}></i>
+				</Link>
               </div>
                       <span className="toggle-arrow" onClick={() => setShowMore2(false)}>
                         <FaChevronUp />
@@ -137,15 +136,12 @@ const Projects = () => {
                 >
                   <i className="fas fa-globe icon-only"></i> {/* Website Icon for mobile */}
                 </a>
-                <a
-                  href="https://vimeo.com/1068878409/d86bcb6e3a"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn custom-btn"
-                  style={{ marginRight: "15px" }}
-                >
-                  <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                </a>
+				<Link
+				to="/APP-SEC"
+				className="btn custom-btn"
+				>
+				<i className="fas fa-play icon-only" style={{ marginRight: "5px" }}></i>
+				</Link>
               </div>
                       <span className="toggle-arrow" onClick={() => setShowMore2(true)}>
                         <FaChevronDown />
@@ -182,24 +178,19 @@ const Projects = () => {
                         >
                           <i className="fab fa-github icon-only"></i> {/* GitHub Icon for mobile */}
                         </a>
-                        <a
-                          href="https://vimeo.com/1068893673/5c45af3b6f"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn custom-btn"
-                          style={{ marginRight: "15px" }}
-                        >
-                          <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                        </a>
-                        <a
-                          href="https://vimeo.com/1068893500/c0fa2c5b3d"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn custom-btn"
-                          style={{ marginRight: "15px" }}
-                        >
-                          <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                        </a>
+						<Link
+						  to="/CryptoGraph-MSB"
+						  className="btn custom-btn"
+						  style={{ marginRight: "15px" }}
+						>
+						  <i className="fas fa-play icon-only" style={{ marginRight: "5px" }}></i>
+						</Link>
+
+						<Link to="/CryptoGraph-LSB" className="btn custom-btn">
+						  <i className="fas fa-play icon-only" style={{ marginRight: "5px" }}></i>
+						</Link>
+
+
                       </div>
                       <span className="toggle-arrow" onClick={() => setShowMore3(false)}>
                         <FaChevronUp />
@@ -219,24 +210,18 @@ const Projects = () => {
                         >
                           <i className="fab fa-github icon-only"></i> {/* GitHub Icon for mobile */}
                         </a>
-                        <a
-                          href="https://vimeo.com/1068893673/5c45af3b6f"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn custom-btn"
-                          style={{ marginRight: "15px" }}
-                        >
-                          <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                        </a>
-                        <a
-                          href="https://vimeo.com/1068893500/c0fa2c5b3d"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn custom-btn"
-                          style={{ marginRight: "15px" }}
-                        >
-                          <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                        </a>
+						<Link
+						  to="/CryptoGraph-MSB"
+						  className="btn custom-btn"
+						  style={{ marginRight: "15px" }}
+						>
+						  <i className="fas fa-play icon-only" style={{ marginRight: "5px" }}></i>
+						</Link>
+
+						<Link to="/CryptoGraph-LSB" className="btn custom-btn">
+						  <i className="fas fa-play icon-only" style={{ marginRight: "5px" }}></i>
+						</Link>
+
                       </div>
                       <span className="toggle-arrow" onClick={() => setShowMore3(true)}>
                         <FaChevronDown />
@@ -273,15 +258,12 @@ const Projects = () => {
                       >
                         <i className="fab fa-github icon-only"></i> {/* GitHub Icon for mobile */}
                       </a>
-                      <a
-                        href="https://vimeo.com/1068893419/b21fdaf23d"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn custom-btn"
-                        style={{ marginRight: "15px" }}
-                      >
-                        <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                      </a>
+					  <Link
+						to="/Network-Scan"
+						className="btn custom-btn"
+					  >
+						<i className="fas fa-play icon-only" style={{ marginRight: "5px" }}></i>
+					  </Link>
                     </div>
                     <span className="toggle-arrow" onClick={() => setShowMore4(false)}>
                       <FaChevronUp />
@@ -301,15 +283,12 @@ const Projects = () => {
                       >
                         <i className="fab fa-github icon-only"></i> {/* GitHub Icon for mobile */}
                       </a>
-                      <a
-                        href="https://vimeo.com/1068893419/b21fdaf23d"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn custom-btn"
-                        style={{ marginRight: "15px" }}
-                      >
-                        <i className="fab fa-vimeo icon-only"></i> {/* Vimeo Icon for mobile */}
-                      </a>
+					  <Link
+						to="/Network-Scan"
+						className="btn custom-btn"
+					  >
+						<i className="fas fa-play icon-only" style={{ marginRight: "5px" }}></i>
+					  </Link>
                     </div>
                     <span className="toggle-arrow" onClick={() => setShowMore4(true)}>
                       <FaChevronDown />
