@@ -29,18 +29,6 @@ const NetworkScanVideoPageDesktop = () => {
 const NetworkScanVideoPageMobile = () => {
 
   return (
-    <div
-      style={{
-        backgroundColor: "black",
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: "1rem",
-      }}
-    >
-
       <video
         width="100%"
         style={{ maxWidth: "600px", display: "block" }}
@@ -50,7 +38,6 @@ const NetworkScanVideoPageMobile = () => {
         <source src="/media/WIFI.mp4" type="video/mp4" />
         Votre navigateur ne supporte pas la vidéo.
       </video>
-    </div>
   );
 };
 

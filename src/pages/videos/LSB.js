@@ -26,16 +26,6 @@ const LSBVideoPageDesktop = () => {
 // Mobile version
 const LSBVideoPageMobile = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "black",
-        minHeight: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: "1rem",
-      }}
-    >
       <video
         width="100%"
         style={{ maxWidth: "600px", display: "block" }}
@@ -45,7 +35,6 @@ const LSBVideoPageMobile = () => {
         <source src="/media/LSB.mp4" type="video/mp4" />
         Votre navigateur ne supporte pas la vidéo.
       </video>
-    </div>
   );
 };
 

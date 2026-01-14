@@ -27,18 +27,6 @@ const MSBVideoPageDesktop = () => {
 const MSBVideoPageMobile = () => {
 
   return (
-    <div
-      style={{
-        backgroundColor: "black",
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: "1rem",
-      }}
-    >
-
       <video
         width="100%"
         style={{ maxWidth: "600px", display: "block" }}
@@ -48,7 +36,6 @@ const MSBVideoPageMobile = () => {
         <source src="/media/MSB.mp4" type="video/mp4" />
         Votre navigateur ne supporte pas la vidéo.
       </video>
-    </div>
   );
 };
 
