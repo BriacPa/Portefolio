@@ -16,15 +16,15 @@ const Header = () => {
         </div>
       </div>
       {/* Link to open the CV in a new tab */}
-      <a
-        href="https://drive.google.com/file/d/1kAgzwyVHWeYB14vArEPM_vKEI5-g6Rbb/view?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="cv-button"
-      >
-        <i className="bi bi-eye download-icon"></i>
-        Voir mon CV
-      </a>
+	<a
+	  href="PDF/CV.pdf"
+	  target="_blank"
+	  rel="noopener noreferrer"
+	  className="cv-button"
+	>
+	  <i className="bi bi-eye download-icon"></i>
+	  Voir mon CV
+	</a>
     </header>
   );
 };
