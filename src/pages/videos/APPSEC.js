@@ -25,22 +25,31 @@ const VideoPageDesktop = () => {
 
 // Mobile version
 const VideoPageMobile = () => {
-  const navigate = useNavigate();
-  const handleBack = () => navigate(-1);
-
   return (
-    <div className="containerM mt-4">
-      <div className="video-header">
-        <h2 style={{ fontSize: "1.8rem" }}>Application de Sécurité Web</h2>
-      </div>
-
-	<video width="100%" controls muted>
-	  <source src="/media/APPSEC.mp4" type="video/mp4" />
-	  Votre navigateur ne supporte pas la vidéo.
-	</video>
+    <div
+      style={{
+        backgroundColor: "black",
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        padding: "1rem",
+      }}
+    >
+      <video
+        width="100%"
+        style={{ maxWidth: "600px", display: "block" }}
+        controls
+        muted
+      >
+        <source src="/media/APPSEC.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
     </div>
   );
 };
+
+
 
 // Main component
 const VideoPage = () => {

@@ -1,12 +1,10 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
-function NetworkScanVideoPage() {
+// Desktop version
+const NetworkScanVideoPageDesktop = () => {
   const navigate = useNavigate();
-
-  const handleBack = () => {
-    navigate(-1);
-  };
+  const handleBack = () => navigate(-1);
 
   return (
     <div className="container mt-4">
@@ -17,12 +15,57 @@ function NetworkScanVideoPage() {
         </button>
       </div>
 
-      <video width="100%" controls>
+      <video width="100%" 
+	  style={{maxHeight: "700px"}}
+	  controls>
         <source src="/media/WIFI.mp4" type="video/mp4" />
         Votre navigateur ne supporte pas la vidéo.
       </video>
     </div>
   );
-}
+};
+
+// Mobile version
+const NetworkScanVideoPageMobile = () => {
+
+  return (
+    <div
+      style={{
+        backgroundColor: "black",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        padding: "1rem",
+      }}
+    >
+
+      <video
+        width="100%"
+        style={{ maxWidth: "600px", display: "block" }}
+        controls
+        muted
+      >
+        <source src="/media/WIFI.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+    </div>
+  );
+};
+
+// Main component
+const NetworkScanVideoPage = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => setIsMobile(window.innerWidth <= 1300);
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  return isMobile ? <NetworkScanVideoPageMobile /> : <NetworkScanVideoPageDesktop />;
+};
 
 export default NetworkScanVideoPage;

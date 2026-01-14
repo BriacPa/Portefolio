@@ -1,12 +1,10 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
-function MSBVideoPage() {
+// Desktop version
+const MSBVideoPageDesktop = () => {
   const navigate = useNavigate();
-
-  const handleBack = () => {
-    navigate(-1);
-  };
+  const handleBack = () => navigate(-1);
 
   return (
     <div className="container mt-4">
@@ -23,6 +21,49 @@ function MSBVideoPage() {
       </video>
     </div>
   );
-}
+};
+
+// Mobile version
+const MSBVideoPageMobile = () => {
+
+  return (
+    <div
+      style={{
+        backgroundColor: "black",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        padding: "1rem",
+      }}
+    >
+
+      <video
+        width="100%"
+        style={{ maxWidth: "600px", display: "block" }}
+        controls
+        muted
+      >
+        <source src="/media/MSB.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+    </div>
+  );
+};
+
+// Main component
+const MSBVideoPage = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => setIsMobile(window.innerWidth <= 1300);
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  return isMobile ? <MSBVideoPageMobile /> : <MSBVideoPageDesktop />;
+};
 
 export default MSBVideoPage;
