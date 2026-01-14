@@ -62,14 +62,14 @@ const Header = () => {
         </div>
       </div>
       {/* Link to open the CV in a new tab */}
-	<a
+	  	<a
 	  href="PDF/CV.pdf"
 	  target="_blank"
 	  rel="noopener noreferrer"
-	  className="cv-button"
+	  className="cv-buttonM"
 	>
-	  <i className="bi bi-eye download-icon"></i>
-	  Voir mon CV
+	  <i className="bi bi-eye download-iconM"></i>
+	  CV
 	</a>
     </header>
   );
