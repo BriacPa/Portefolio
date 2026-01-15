@@ -25,18 +25,71 @@ const VideoPageDesktop = () => {
 
 // Mobile version
 const VideoPageMobile = () => {
+  const navigate = useNavigate();
+
   return (
-      <video
-        width="100%"
-        style={{ maxWidth: "600px", display: "block" }}
-        controls
-        muted
+    <div
+      style={{
+        height: "100vh",
+        backgroundColor: "#000",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      {/* Header */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          padding: "12px",
+          color: "#fff",
+        }}
       >
-        <source src="/media/APPSEC.mp4" type="video/mp4" />
-        Votre navigateur ne supporte pas la vidéo.
-      </video>
+        <button
+          onClick={() => navigate(-1)}
+          style={{
+            background: "none",
+            border: "none",
+            color: "#fff",
+            fontSize: "20px",
+            marginRight: "10px",
+          }}
+        >
+          ←
+        </button>
+        <span style={{ fontSize: "16px", fontWeight: "500" }}>
+          Application de Sécurité Web
+        </span>
+      </div>
+
+      {/* Video */}
+      <div
+        style={{
+          flex: 1,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <video
+          controls
+          muted
+          autoPlay
+          playsInline
+          style={{
+            width: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+        >
+          <source src="/media/APPSEC.mp4" type="video/mp4" />
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    </div>
   );
 };
+
 
 
 
