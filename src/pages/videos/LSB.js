@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-// Desktop version
+/* =======================
+   Desktop version
+======================= */
 const LSBVideoPageDesktop = () => {
   const navigate = useNavigate();
   const handleBack = () => navigate(-1);
@@ -11,7 +13,7 @@ const LSBVideoPageDesktop = () => {
       <div className="video-header">
         <h2 className="vid-h2">CryptoGraph : Less Significant Bit</h2>
         <button onClick={handleBack} className="back-btn">
-          &#8592; {/* ← bold arrow */}
+          &#8592;
         </button>
       </div>
 
@@ -23,22 +25,78 @@ const LSBVideoPageDesktop = () => {
   );
 };
 
-// Mobile version
+/* =======================
+   Mobile version
+======================= */
 const LSBVideoPageMobile = () => {
+  const navigate = useNavigate();
+
   return (
-      <video
-        width="100%"
-        style={{ maxWidth: "600px", display: "block" }}
-        controls
-        muted
+    <div
+      style={{
+        height: "100vh",
+        backgroundColor: "#000",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      {/* Header */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          padding: "12px",
+          color: "#fff",
+        }}
       >
-        <source src="/media/LSB.mp4" type="video/mp4" />
-        Votre navigateur ne supporte pas la vidéo.
-      </video>
+        <button
+          onClick={() => navigate(-1)}
+          style={{
+            background: "none",
+            border: "none",
+            color: "#fff",
+            fontSize: "20px",
+            marginRight: "10px",
+          }}
+        >
+          ←
+        </button>
+        <span style={{ fontSize: "16px", fontWeight: 500 }}>
+          CryptoGraph : LSB
+        </span>
+      </div>
+
+      {/* Video */}
+      <div
+        style={{
+          flex: 1,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <video
+          controls
+          muted
+          autoPlay
+          playsInline
+          style={{
+            width: "100%",
+            maxHeight: "100%",
+            objectFit: "contain",
+          }}
+        >
+          <source src="/media/LSB.mp4" type="video/mp4" />
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    </div>
   );
 };
 
-// Main component
+/* =======================
+   Main component
+======================= */
 const LSBVideoPage = () => {
   const [isMobile, setIsMobile] = useState(false);
 
