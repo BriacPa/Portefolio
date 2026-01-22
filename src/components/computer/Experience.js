@@ -3,7 +3,6 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const Experience = () => {
   const [showMore1, setShowMore1] = useState(false);
-  const [showMore2, setShowMore2] = useState(false);
 
   return (
     <section className="containerTC my-5">
