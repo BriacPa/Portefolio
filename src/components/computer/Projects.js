@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="col-md-4">
           <div className="card mb-4 project-card">
             <div className="card-body">
-              <h5 className="card-title project-title">Portefolio</h5>
+              <h5 className="card-title project-title">Portfolio</h5>
               <div className="tags">
                 {["React", "Front-End", "Portfolio"].map((tag, index) => (
                   <span key={index} className="project-tag">{tag}</span>
